@@ -2,17 +2,28 @@ body li{
   list-style-type: none;
 }
 
-body{
+body, html{
   font-family: "Helvetica Neue";
   margin-left: 0;
   margin-right: 0;
   overflow-x: hidden;
+  width: 100%;
+  max-width: 1920px;
 }
+
+
 
 nav li {
   float: right;
   padding-right: 40px;
   padding-top: 3%;
+  color: black;
+  margin-bottom: 0
+}
+
+nav li:hover {
+  color: green;
+  text-decoration: underline
 }
 
 .row-2-list li {
@@ -25,20 +36,23 @@ nav li {
   background-color: #f5faf8;
 }
 
-.title {
+#about {
   margin-top: 0px;
   padding-top: 2rem;
 }
 
 .description-1 {
   margin-top: -30px;
+  font-size: 18px
 }
 
 .description-2 {
-  margin-bottom: 0px
+  margin-bottom: 0px;
+  font-size: 18px
+
 }
  
-.services {
+#services {
   text-align: center;
 }
 
@@ -56,8 +70,8 @@ h3 {
   border: solid 2px green;
   border-radius: 10px;
   padding-left: 15px;
-  margin: 30px 165px;
-  width: 75%;  
+  margin: 30px 160px;
+  width: 75%;
 }
 
 .domain-image {
@@ -68,12 +82,12 @@ h3 {
 .vertical-line {
     margin: 30px 60px ;
     height: 200px;
-}
+} 
 
 .dedicated-virtual {
   color: #143f8f;
-  margin-top: 80px;
-  margin-left: -40px;
+  margin-top: -20px;
+  margin-left: 50px; 
 }
 
 .add-ons {
@@ -98,8 +112,9 @@ h3 {
 
 
 .webhosting{
-  display: flex;
-  margin-top: -35px
+  display: flex; 
+  margin-top: -35px;
+
 }
 
 .webhosting li{
@@ -122,7 +137,7 @@ button{
 .col-1, .col-2{
   display: flex;
   margin-left: 50px;
-  margin-right: 50px
+  margin-right: 50px;
 }
 
 .domain {
@@ -155,7 +170,29 @@ h2 {
   margin-top: 40px
 }
 
-.contact-form {
+.logos-1 {
+  display: inline-block;
+  margin-right:40px;
+  height: auto;
+  width: 223px;
+}
+
+.logos-2 {
+  display: inline-block;
+  height: auto;
+  width: 190px;
+  margin-left: 80px
+}
+
+.logos-row-1 {
+  margin-left: 200px
+}
+
+.logos-row-2 {
+  margin-left: -50px
+}
+
+#contact-form {
   display: flex;
 }
 
@@ -183,6 +220,7 @@ textarea {
 
 .send-btn {
   margin: 0 0 20px 400px;
+  cursor: pointer;
 
 }
 
@@ -207,5 +245,131 @@ footer p {
 }
 
 
+@media screen and (max-width: 1060px){
+
+  .domain {
+    display: block;
+    margin: auto;
+  }
+ 
+.row-1, .row-2, .row-3 {
+  border: solid 2px green;
+  border-radius: 10px;
+  padding-left: 15px;
+  margin: 20px 20px;
+  width: 80%;  
+  overflow: hidden;
+}
 
 
+.col-1, .col-2{
+  display: flex;
+  margin: 0
+  
+}
+
+.service-info {
+  
+}
+
+.logos-row-1 {
+  margin-left: 50px
+}
+
+.description-1, .description-2 {
+  font-size: 14px
+}
+
+.add-ons {
+  margin : 0;
+  text-align: center;
+  margin-bottom: 15px
+}
+
+.contact-form-1 {
+  margin-left:50px;
+  justify-content: center;
+}
+.contact-form-2 input, textarea{
+  width: 150%;
+  justify-content: center;
+
+}
+
+.send-btn {
+  margin: auto;
+
+}
+.contact-form-2 {
+  margin-bottom: 20px
+}
+.webhosting {
+  display: block
+}
+
+.col-1, .col-2{
+  justify-content: center
+
+}
+
+.vertical-line {
+  margin: 10px ;
+  height: 1px;
+}
+}
+
+
+
+@media screen and (max-width: 660px){
+  .row-1-intro, .row-2-intro{
+    display: block;
+  }
+
+  .contact-form-2 input, textarea{
+    width: 80%;
+    justify-content: center;
+  
+  }
+  .row-2-list li{
+    margin: 20px;
+  }
+
+  .row-2-list-1 {
+    margin: 2rem;
+    text-align: center;
+    line-height: 0rem;
+
+
+  }
+  
+  .domain-image{
+    margin-left: 10px
+  }
+  .domain {
+    display: block;
+    margin: auto;
+  }
+ 
+
+}
+
+@media screen and (max-width: 730px){
+  .domain-image {
+    display: flex;
+    margin-left:60px;
+  }
+
+
+}
+
+@media screen and (max-width:480px){
+  .domain-image {
+    display: block
+  }
+
+  .dedicated-virtual {
+    margin-left: -20px;
+    text-align: center
+  }
+  
+}
