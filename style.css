@@ -555,6 +555,8 @@ footer p{
   .logos-row-1 {
     display: flex
   }
+
+  
   
 }
 
@@ -569,12 +571,26 @@ footer p{
 }
 
 /* TEST */
-@media screen and (min-width: 555px) and (max-width: 679px){
+@media screen and (min-width: 555px) and (max-width: 673px){
   .row-1 {
     font-size: 12px
   }
   .row-2-list li {
-    font-size: 8px
+    font-size: 8.8px
   }
+
+  .vertical-line {
+    height: 130px
+  } 
+  .add-ons {
+    margin-top: 20px;
+    margin-left: 330px
+  }
+  .dedicated-virtual {
+    margin-left: 330px
+
+  }
+
+  
 
 }
