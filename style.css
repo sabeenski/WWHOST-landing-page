@@ -1,18 +1,16 @@
 
-
-
-
 body li{
   list-style-type: none;
 }
 
-body, html{
+body, html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   overflow-x: hidden;
   width: 100%;
   max-width: 1920px;
   background-color: #C9C9C9;
+  min-width: 400px;
 
 }
 
@@ -21,6 +19,7 @@ body, html{
   margin-right: auto;
   width: 100%;
   max-width: 680px;
+  min-width: 400px;
   height: auto;
   background: white
 }
@@ -39,7 +38,6 @@ nav li {
   margin-top: 15px;
   font-weight: bold;
   color: #737373;
-
 }
 
 
@@ -79,7 +77,8 @@ nav img {
 h3 {
   color: green;
   text-transform: uppercase;
-  font-size: 22px
+  font-size: 22px;
+  position: relative;
 }
 
 .service-info {
@@ -95,7 +94,7 @@ h3 {
   width: 90%;
 }
 
-.webhosting{
+.webhosting {
   display: flex; 
   margin-bottom: -20px
 }
@@ -105,7 +104,7 @@ h3 {
 }
 
 .vertical-line {
-    height: 180px;
+  height: 180px;
 } 
 
 .dedicated-virtual {
@@ -123,7 +122,7 @@ h3 {
   margin: 0px 10px 10px 390px;
 }
 
-button{
+button {
   background-color:#ffe30f;
   height: 30px;
   font-size: 14px;
@@ -133,37 +132,23 @@ button{
 
 .row-1-intro, .row-2-intro, .row-3-intro {
   display: flex;
-
 }
 
 .row-2-intro {
   margin-bottom: -50px
-
 }
+
 
 .row-2-list li {
   list-style-type: initial;
   margin-right: 5
 }
-/* .row-2-list-1 {
-  float: left;
-  margin-right: 50px;
-  margin-left: 380px;
-} */
 
 .row-2-list-1 {
   display: flex;
   font-size: 0.83em;
   margin: 30px auto auto 290px;
-
-  }
-
-
-
-
-
-
-
+}
 
 .col-1, .col-2 {
   display: flex;
@@ -179,10 +164,10 @@ button{
   display: flex;
   margin-left:50px;
   margin-top: -20px;
-  font-size: 55px;
-
 }
+
 h5 {
+  font-size: 45px;
   line-height: 0em;
   margin-bottom: -25px
 }
@@ -219,14 +204,13 @@ h5 {
   line-height: 2em
 }
 
-
 h2 {
   color: #143f8f;
   text-align: center;
   margin-top: 40px
 }
 
- .logos-1 img {
+.logos-1 img {
   width: 150px;
   margin-left: 40px
 }
@@ -235,7 +219,6 @@ h2 {
   width: 150px;
   margin-top: -25px;
   margin-left: 40px
-
 }
 
 .logos-2 img {
@@ -246,7 +229,6 @@ h2 {
 .logos-row-1, .logos-row-2{
   display: flex;
 }
-
 
 #message {
   margin-bottom: -10px
@@ -301,7 +283,6 @@ footer p{
   margin-left: 10px;
   margin-right: 45px;
   padding: 8px 
-  
 }
 
 .spacer {
@@ -428,34 +409,13 @@ footer p{
 
 } */
 
-@media screen and (max-width: 730px){
-  .domain-image {
-    display: flex;
-    margin-left:60px;
-  }
+
+/* New stylings added */
 
 
-}
 
-@media screen and (max-width:480px){
-  .domain-image {
-    display: block
-  }
-
-  .dedicated-virtual {
-    margin-left: -20px;
-    text-align: center
-  }
-  
-  /* New stylings added */
-
-  nav li {
-    padding-right: 10px
-  }
-}
-
-@media screen and (max-width:565px){
-  #contact-form {
+@media screen and (max-width:565px) and (min-width: 500px) {
+  /* #contact-form {
     display: block;
   }
   
@@ -478,7 +438,7 @@ footer p{
   
 .send-btn {
   margin-left: 200px
-}
+} */
 
 }
 @media screen and (max-width:640px) and (min-width:565px) {
@@ -491,4 +451,119 @@ footer p{
     margin-left: 36.5em
   }
   
+}
+
+@media screen and (max-width: 675px) {
+  .logos-1 img, .logos-2 img, .logos-3 img{
+    width: 140px;
+    margin: auto 
+  }
+
+  
+}
+
+@media screen and (max-width: 500px) {
+  .logos-row-1, .logos-row-2 {
+    display: block
+  }
+
+  nav li, nav img {
+    margin-top: 15px;
+    font-size: 0.9em;
+    padding-right: 10px;
+    font-size: 0.9em
+  }
+
+  nav {
+    height: 60px;
+  }
+
+  .row-1-intro, .row-2-intro, .row-3-intro {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .webhosting {
+    display: block;
+    margin-left: 5px
+  }
+
+  .vertical-line {
+    margin: 10px ;
+    height: 0px;
+  }
+
+  div .col-1 {
+    margin-left: 50px
+  }
+
+  .col-2 {
+    margin-top: 35px;
+    margin-left: 30px
+  }
+
+  .dedicated-virtual {
+    position: absolute;
+    margin: 175px auto auto 120px;
+  }
+
+  .add-ons {
+    margin: 30px 10px 10px 120px;
+  }
+
+  h5 {
+    font-size: 30px;
+    line-height: 1.1em
+  }
+
+  .row-2-list-1 {
+    display: flex;
+    margin: auto;
+  }
+
+  .domain {
+    margin-top: 0;
+    margin-left: 0;
+
+  }
+
+  .domain-name {
+    margin-left: 20px;
+  }
+
+  h3 {
+    margin-bottom: 5px
+  }
+  
+  .send-btn {
+    margin-left: 300px
+  } 
+
+  .contact-form-1 {
+    font-size: 12.5px;
+  }
+
+  .contact-form-2 input, textarea {
+    width: 100%
+  }
+
+  .logos-1 img, .logos-2 img, .logos-3 img{
+    width: 100px;
+    display: inline
+  }
+
+  .logos-row-1 {
+    display: flex
+  }
+  
+}
+
+@media screen and (max-width: 400px) {
+  h5 {
+    font-size: 27px
+  }
+
+  .domain img{
+    height: 180px;
+  }
 }
