@@ -153,8 +153,8 @@ button{
 
 .row-2-list-1 {
   display: flex;
-  font-size: 0.9rem;
-  margin: 30px auto auto 258px;
+  font-size: 0.83em;
+  margin: 30px auto auto 290px;
 
   }
 
@@ -171,14 +171,15 @@ button{
 
 .domain-name {
   color: #143f8f;
-  margin-left: 80px;
+  margin-left: 40px;
+  margin-top: -10px
 }
 
 .domain {
   display: flex;
   margin-left:50px;
   margin-top: -20px;
-  font-size: 53px;
+  font-size: 55px;
 
 }
 h5 {
@@ -307,9 +308,7 @@ footer p{
   flex: 1
 }
 
-.spacer1 {
-  flex: 1
-}
+
 
 /* @media screen and (max-width: 1060px){
 
