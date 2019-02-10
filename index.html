@@ -9,16 +9,19 @@
 <body>
   <div class="container">
     <nav>
-      <img src="images/WWHOST-LOGO.png" alt="logo" width=20%">
-      <a href="#contact-form"><li> CONTACT</li></a>
-      <a href="#services"><li>SERVICES</li></a>
-      <a href="#about"><li>ABOUT</li></a>
+      <div class="navbar">
+        <img src="images/WWHOST-LOGO.png" alt="logo" width="30%">
+        <li>&nbsp;</li>
+        <a href="#contact-form"><li> CONTACT</li></a>
+        <a href="#services"><li>SERVICES</li></a>
+        <a href="#about"><li>ABOUT</li></a>
+      </div>
     </nav>
 
-    <img src="images/webhosting-domain-ssl-certs.jpg" alt="webhosting-domain-ssl-certs" height="auto" width="100%">
+    <img class="banner" src="images/webhosting-domain-ssl-certs.jpg" alt="webhosting-domain-ssl-certs" height="auto" width="100%">
     <div class="container">
       <div class="intro-web-host">
-        <h4 id="about" style="color:#143f8f">A Win Win Way to Host</h4>
+        <h2 id="about" style="color:#143f8f">A Win Win Way to Host</h2>
         <br>
         <p class="description-1">
           Win Win Host is a partner of Dreamscape (ASX:DN8), <br>
@@ -36,50 +39,52 @@
       </div>
   
       <div>
-        <h4 id="services" style="color: green; font-size: 25px">Services</h4>
+        <h4 id="services" style="">Services</h4>
         <div class="row-1">
           <div class="row-1-intro">
             <h3>Webhosting</h3>
             <div class="service-info">You can choose between Windows or Linux operating system. <br>
             The server are single core and SSD storage.  
             </div> 
+            
           </div>
+          <div class="dedicated-virtual">Dedicated Virtual</div>
           <div class="webhosting">
             <div class="col-1">
-              <ul class="window-1">
-                <p>Window<p>
-                <li>Basic $116</li>
-                <li>Standard $158</li>
-                <li>Business $192</li>
+              <div class="window-1">
+                <span class="OS">Window</span>
+                <li><b>Basic $116</b></li>
+                <li><b>Standard $158</b></li>
+                <li><b>Business $192</b></li>
                 <button>Get Plan</button>
-              </ul>
+              </div>
               
-              <ul class="linux-1">
-                <p>Linux</p>
-                <li>Basic $116</li>
-                <li>Standard $180</li>
-                <li>Business $210</li>
+              <div class="linux-1">
+                <span class="OS">Linux</span>
+                <li><b>Basic $116</b></li>
+                <li><b>Standard $180</b></li>
+                <li><b>Business $210</b></li>
                 <button>Get Plan</button>
-              </ul>
+              </div>
             </div>
             <hr class="vertical-line"></hr>
             
             <div class="col-2">
-              <ul class="window-2">
-                  <div class="dedicated-virtual">Dedicated Virtual</div>
-                <p>Window</p>
-                <li>Basic $805</li>
-                <li>Standard $1132.60</li>
-                <li>Business $1871.80</li>
+              <div class="window-2">
+                  <!-- <div class="dedicated-virtual">Dedicated Virtual</div> -->
+                <span class="OS">Window</span>
+                <li><b>Basic $805</b></li>
+                <li><b>Standard $1132.60</b></li>
+                <li><b>Business $1871.80</b></li>
                 <button>Get Plan</button>
-              </ul>
-              <ul class="linux-2">
-                <p>Linux</p>
-                <li>Basic $740.60</li>
-                <li>Standard $1044.40</li>
-                <li>Business $1785</li>
+              </div>
+              <div class="linux-2">
+                <span class="OS">Linux</span>
+                <li><b>Basic $740.60</b></li>
+                <li><b>Standard $1044.40</b></li>
+                <li><b>Business $1785</b></li>
                 <button>Get Plan</button>
-              </ul>
+              </div>
             </div>
           </div>
           <div class="add-ons"><a href="#">Add ons available!</a></div>
@@ -91,17 +96,19 @@
             <p class="service-info"><span style="color:red"><b>Free</b></span> with <span style="font-weight:bold">ALL</span> domains
             </p>
           </div>
-  
-            <ul class="row-2-list">
-              <div class="row-2-list-1"><li>Management Tools</li> <li>Domain Parking</li></div>
-              <li>Domain Transfer</li> <li>Professional Tech Support</li>
-            </ul>
-          <div class="domain-image">
+            <div class="row-2-list">
+              <ul class="row-2-list-1">
+                <div><li>Management Tools</li><li>Domain Parking</li></div>
+                <div class="spacer1"></div>
+                <div><li>Domain Transfer</li><li>Professional Tech Support</li> </div>
+              </ul>
+            </div>
+          <div class="domain">
             <div><img src="/images/Domain-registration.png" alt="domain-registration-WWHOST"></div>
-            <div class="domain">
-              <h1>.SG</h1>
-              <h1>.COM.SG</h1>
-              <h1>.COM $19</h1>
+            <div class="domain-name">
+              <h5>.SG</h5>
+              <h5>.COM.SG</h5>
+              <h5>.COM $19</h5>
             </div>
           </div>
         </div>
@@ -109,25 +116,31 @@
         <div class="row-3">
           <div class="row-3-intro">
             <h3>SSL Certs</h3>
-            <p class="service-info"> <b>Be secured, build authority! </b> Encrypt your site with SSLs from top trusted brands.</p>
+            <p class="service-info"> <b>Be secured, build authority! </b> Encrypt your site with SSLs from <br> trusted brands.</p>
           </div>
           <div class="logos-row-1">
-            <div class="logos-1"><img src="/images/ssl-certs-comodo.png" alt="ssl-certified"></div>
-            <div class="logos-1"><img src="/images/ssl-certs-geotrust.png" alt="ssl-certified"></div>
-            <div class="logos-1"><img src="/images/ssl-certs-norton.png" alt="ssl-certified"></div>
+            <div class="logos-1">
+              <img src="/images/ssl-certs-comodo.png" alt="ssl-certified">
+              <img src="/images/ssl-certs-geotrust.png" alt="ssl-certified">
+            </div>
+            <div class="logos-3">
+              <img src="/images/ssl-certs-norton.png" alt="ssl-certified">
+            </div>
           </div>
           <br>
           <div class="logos-row-2">
-            <div class="logos-2"><img src="/images/ssl-certs-rapidssl.png" alt="ssl-certified"></div>
-            <div class="logos-2"><img src="/images/ssl-certs-symantec.png" alt="ssl-certified"></div>
-            <div class="logos-2"><img src="/images/ssl-certs-thwate.png" alt="ssl-certified"></div>
-            <div class="logos-2"><img src="/images/ssl-certs-verisign.png" alt="ssl-certified"></div>
+            <div class="logos-2">
+              <img src="/images/ssl-certs-rapidssl.png" alt="ssl-certified">
+              <img src="/images/ssl-certs-symantec.png" alt="ssl-certified">
+              <img src="/images/ssl-certs-thwate.png" alt="ssl-certified">
+              <img src="/images/ssl-certs-verisign.png" alt="ssl-certified">
+            </div>
           </div>
         </div>
   
         <div class="webhost-discount"><p class="webhost-package">Up to 20% Discount Available for Package Deals. <br/> Call 94315723 / 96567257 for Details.</p></div>
   
-        <h2>Leave Us a Message</h2>
+        <h2 id="message">Leave Us a Message</h2>
         <div id="contact-form">
           <div class="contact-form-1">
             <p>Still undecided on 
@@ -135,7 +148,7 @@
             <br/>Leave us a message 
             <br/>and we will contact 
             <br/>you within 24 hours.</p>
-            <div class="contact-info"><b>Whatsapp</b> <p>94315723</p> <p>96567257</p></div>
+            <div class="contact-info"><b>Whatsapp</b> <div>94315723</div> <div>96567257</div></div>
           </div>
   
           <div class="contact-form-2">
@@ -145,12 +158,13 @@
               <br/><input type="text" placeholder="Phone" required>
               <br/><textarea placeholder="Message" id="" cols="30" rows="10"></textarea>
             </form>
-            <button class="send-btn">Send</button>
           </div>   
         </div>
+        <div><button class="send-btn">Send</button></div>
   
         <div>
             <footer>
+              &nbsp;&nbsp;&nbsp
               <p>2019@Win Win Host Pte Ltd</p>
               <div class="spacer"></div>
               <p>Terms | Privacy</p>

@@ -1,35 +1,60 @@
+
+
+
+
 body li{
   list-style-type: none;
 }
 
 body, html{
-  font-family: "Helvetica Neue";
-  margin-left: 0;
-  margin-right: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
   overflow-x: hidden;
   width: 100%;
   max-width: 1920px;
+  background-color: #C9C9C9;
+
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 680px;
+  height: auto;
+  background: white
+}
 
+nav {
+  background-color: white;
+  height: 90px;
+}
 
 nav li {
   float: right;
-  padding-right: 40px;
+  padding-right: 25px;
   padding-top: 3%;
   color: black;
-  margin-bottom: 0
+  margin-bottom: 0;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #737373;
+
 }
+
 
 nav li:hover {
   color: green;
-  text-decoration: underline
 }
 
-.row-2-list li {
-  list-style-type: initial;
+nav img {
+  margin-left: 30px;
+  margin-top: 15px
 }
 
+.banner {
+  box-shadow: 0px 0px 3px 0px gray
+}
 
 .intro-web-host{
   text-align: center;
@@ -43,55 +68,67 @@ nav li:hover {
 
 .description-1 {
   margin-top: -30px;
-  font-size: 18px
 }
 
-.description-2 {
-  margin-bottom: 0px;
-  font-size: 18px
-
-}
- 
 #services {
   text-align: center;
+  color: green;
+  font-size: 20px
 }
 
 h3 {
   color: green;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 22px
 }
 
 .service-info {
-  margin: 0
+  margin: auto 0 auto 15px;
+  font-size: 16px
 } 
 
 .row-1, .row-2, .row-3 {
   border: solid 2px green;
   border-radius: 10px;
   padding-left: 15px;
-  margin: 30px 160px;
-  width: 75%;
+  margin: 30px auto;
+  width: 90%;
 }
 
-.domain-image {
-  display: flex;
-  margin-left:160px;
+.webhosting{
+  display: flex; 
+  margin-bottom: -20px
+}
+
+.webhosting li{
+  color: #143f8f;
 }
 
 .vertical-line {
-    margin: 30px 60px ;
-    height: 200px;
+    height: 180px;
 } 
 
 .dedicated-virtual {
   color: #143f8f;
-  margin-top: -20px;
-  margin-left: 50px; 
+  margin-left: 360px;
+  line-height: 2em
+}
+
+.OS {
+  font-size: 1.5em;
+  margin-left: 15px
 }
 
 .add-ons {
-  margin : -20px 0 15px 700px
+  margin: 0px 10px 10px 390px;
+}
+
+button{
+  background-color:#ffe30f;
+  height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 30px;
 }
 
 .row-1-intro, .row-2-intro, .row-3-intro {
@@ -104,53 +141,53 @@ h3 {
 
 }
 
-.row-2-list-1 {
+.row-2-list li {
+  list-style-type: initial;
+  margin-right: 5
+}
+/* .row-2-list-1 {
   float: left;
   margin-right: 50px;
   margin-left: 380px;
-}
+} */
 
-
-.webhosting{
-  display: flex; 
-  margin-top: -35px;
-
-}
-
-.webhosting li{
-  color: #143f8f;
-  line-height: 2em;
-  font-weight: 500;
-}
-.webhosting p{
-  font-size: 25px;
-}
-
-button{
-  background-color:#ffe30f;
-  height: 30px;
-  font-size: 14px;
-  font-weight: bold;
-  margin-left: 30px
-}
-
-.col-1, .col-2{
+.row-2-list-1 {
   display: flex;
-  margin-left: 50px;
-  margin-right: 50px;
+  font-size: 0.9rem;
+  margin: 30px auto auto 258px;
+
+  }
+
+
+
+
+
+
+
+
+.col-1, .col-2 {
+  display: flex;
+}
+
+.domain-name {
+  color: #143f8f;
+  margin-left: 80px;
 }
 
 .domain {
-  color: #143f8f;
-  margin-left: 80px
-}
+  display: flex;
+  margin-left:50px;
+  margin-top: -20px;
+  font-size: 53px;
 
-.service-info {
-  margin: 35px 20px 10px 25px
+}
+h5 {
+  line-height: 0em;
+  margin-bottom: -25px
 }
 
 .webhost-discount {
-  height: 70px;
+  height: 90px;
   background-color: #143f8f;
   padding: 0;
   margin:0
@@ -158,11 +195,29 @@ button{
 
 .webhost-package {
   color: white;
-  font-weight: bold;
   text-align: center;
-  padding: 10px 10px;
-  line-height: 1.5rem
+  padding: 25px 15px;
+  line-height: 1.3rem;
+  font-weight: 4rem;
+  word-spacing: 0.1em
 }
+
+.window-1, .linux-1 {
+  margin-right: 2em;
+  line-height: 2em
+}
+
+.window-2 {
+  margin-left: 1em;
+  line-height: 2em
+}
+
+.linux-2 {
+  margin-right: .5em;
+  margin-left: 1em;
+  line-height: 2em
+}
+
 
 h2 {
   color: #143f8f;
@@ -170,26 +225,30 @@ h2 {
   margin-top: 40px
 }
 
-.logos-1 {
-  display: inline-block;
-  margin-right:40px;
-  height: auto;
-  width: 223px;
+ .logos-1 img {
+  width: 150px;
+  margin-left: 40px
 }
 
-.logos-2 {
-  display: inline-block;
-  height: auto;
-  width: 190px;
-  margin-left: 80px
+.logos-3 img {
+  width: 150px;
+  margin-top: -25px;
+  margin-left: 40px
+
 }
 
-.logos-row-1 {
-  margin-left: 200px
+.logos-2 img {
+  width: 149px;
+  margin-bottom: 40px
+} 
+
+.logos-row-1, .logos-row-2{
+  display: flex;
 }
 
-.logos-row-2 {
-  margin-left: -50px
+
+#message {
+  margin-bottom: -10px
 }
 
 #contact-form {
@@ -197,55 +256,62 @@ h2 {
 }
 
 .contact-form-1 {
-  margin: 20px 100px 0 365px;
+  margin: 20px 5px 20px 40px;
 }
 
 .contact-info {
-  line-height: 0.4rem;
   margin-top: 30px
 }
+
 .contact-form-2 input{
   height: 30px;
-  width: 100%; 
+  width: 180%; 
   margin-top:15px;
-  font-size: 14px
+  font-size: 14px;
 }
 
 textarea {
-  width: 100%; 
+  width: 180%; 
   margin-top:15px ;
   margin-bottom: 10px;
   font-size: 14px
 }
 
 .send-btn {
-  margin: 0 0 20px 400px;
+  margin-left: 41.5em;
+  margin-bottom: 80px;
   cursor: pointer;
-
 }
 
 ::placeholder {
-  font-size: 15px
+  font-size: 15px;
+  padding-left: 3px
 }
 
 footer {
-  height: 50px;
+  height: 60px;
   background-color: #4a4a4a;
   color: white;
-  display: flex
+  display: flex;
+  margin-bottom: 0
 }
 
-footer p {
-  margin-left: 45px;
-  margin-right: 45px
+footer p{
+  margin-left: 10px;
+  margin-right: 45px;
+  padding: 8px 
+  
 }
 
 .spacer {
-  flex:1
+  flex: 1
 }
 
+.spacer1 {
+  flex: 1
+}
 
-@media screen and (max-width: 1060px){
+/* @media screen and (max-width: 1060px){
 
   .domain {
     display: block;
@@ -316,11 +382,21 @@ footer p {
   margin: 10px ;
   height: 1px;
 }
+
+.webhost-package {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px auto;
+  margin: auto;
+  line-height: 1rem
 }
 
+} */
 
 
-@media screen and (max-width: 660px){
+
+/* @media screen and (max-width: 660px){
   .row-1-intro, .row-2-intro{
     display: block;
   }
@@ -351,7 +427,7 @@ footer p {
   }
  
 
-}
+} */
 
 @media screen and (max-width: 730px){
   .domain-image {
@@ -370,6 +446,50 @@ footer p {
   .dedicated-virtual {
     margin-left: -20px;
     text-align: center
+  }
+  
+  /* New stylings added */
+
+  nav li {
+    padding-right: 10px
+  }
+}
+
+@media screen and (max-width:565px){
+  #contact-form {
+    display: block;
+  }
+  
+  .contact-form-1 {
+    margin: 20px 5px 20px 40px;
+    text-align: center;
+  }
+  
+  
+  .contact-form-2 input{
+    height: 30px;
+    width: 70%; 
+    margin: 15px 15% 0 15%;
+  }
+  
+  textarea {
+    width: 70%; 
+    margin: 15px 15% 0 15%;
+  }
+  
+.send-btn {
+  margin-left: 200px
+}
+
+}
+@media screen and (max-width:640px) and (min-width:565px) {
+
+  .contact-form-2 input, textarea {
+    width: 150%;
+  }
+
+  .send-btn {
+    margin-left: 36.5em
   }
   
 }
