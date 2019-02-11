@@ -290,157 +290,8 @@ footer p{
 }
 
 
+/* Media Queries for mobile responsive */
 
-/* @media screen and (max-width: 1060px){
-
-  .domain {
-    display: block;
-    margin: auto;
-  }
- 
-.row-1, .row-2, .row-3 {
-  border: solid 2px green;
-  border-radius: 10px;
-  padding-left: 15px;
-  margin: 20px 20px;
-  width: 80%;  
-  overflow: hidden;
-}
-
-
-.col-1, .col-2{
-  display: flex;
-  margin: 0
-  
-}
-
-.service-info {
-  
-}
-
-.logos-row-1 {
-  margin-left: 50px
-}
-
-.description-1, .description-2 {
-  font-size: 14px
-}
-
-.add-ons {
-  margin : 0;
-  text-align: center;
-  margin-bottom: 15px
-}
-
-.contact-form-1 {
-  margin-left:50px;
-  justify-content: center;
-}
-.contact-form-2 input, textarea{
-  width: 150%;
-  justify-content: center;
-
-}
-
-.send-btn {
-  margin: auto;
-
-}
-.contact-form-2 {
-  margin-bottom: 20px
-}
-.webhosting {
-  display: block
-}
-
-.col-1, .col-2{
-  justify-content: center
-
-}
-
-.vertical-line {
-  margin: 10px ;
-  height: 1px;
-}
-
-.webhost-package {
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  padding: 20px auto;
-  margin: auto;
-  line-height: 1rem
-}
-
-} */
-
-
-
-/* @media screen and (max-width: 660px){
-  .row-1-intro, .row-2-intro{
-    display: block;
-  }
-
-  .contact-form-2 input, textarea{
-    width: 80%;
-    justify-content: center;
-  
-  }
-  .row-2-list li{
-    margin: 20px;
-  }
-
-  .row-2-list-1 {
-    margin: 2rem;
-    text-align: center;
-    line-height: 0rem;
-
-
-  }
-  
-  .domain-image{
-    margin-left: 10px
-  }
-  .domain {
-    display: block;
-    margin: auto;
-  }
- 
-
-} */
-
-
-/* New stylings added */
-
-
-
-@media screen and (max-width:565px) and (min-width: 500px) {
-  /* #contact-form {
-    display: block;
-  }
-  
-  .contact-form-1 {
-    margin: 20px 5px 20px 40px;
-    text-align: center;
-  }
-  
-  
-  .contact-form-2 input{
-    height: 30px;
-    width: 70%; 
-    margin: 15px 15% 0 15%;
-  }
-  
-  textarea {
-    width: 70%; 
-    margin: 15px 15% 0 15%;
-  }
-  
-.send-btn {
-  margin-left: 200px
-} */
-
-}
 @media screen and (max-width:640px) and (min-width:565px) {
 
   .contact-form-2 input, textarea {
@@ -459,7 +310,6 @@ footer p{
     margin: auto 
   }
 
-  
 }
 
 @media screen and (max-width: 554px) {
@@ -524,7 +374,6 @@ footer p{
   .domain {
     margin-top: 0;
     margin-left: 0;
-
   }
 
   .domain-name {
@@ -547,17 +396,14 @@ footer p{
     width: 100%
   }
 
-  .logos-1 img, .logos-2 img, .logos-3 img{
+  .logos-1 img, .logos-2 img, .logos-3 img {
     width: 100px;
     display: inline
   }
 
   .logos-row-1 {
     display: flex
-  }
-
-  
-  
+  }  
 }
 
 @media screen and (max-width: 400px) {
@@ -567,6 +413,14 @@ footer p{
 
   .domain img{
     height: 180px;
+  }
+
+}
+
+@media screen and (max-width: 450px){
+  footer p {
+    padding-bottom: 0px;
+    padding-top: 0px ;
   }
 }
 
