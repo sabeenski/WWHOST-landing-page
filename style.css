@@ -474,6 +474,10 @@ footer p{
   .contact-info a {
     color: blue;
   }
+
+  nav {
+    height: 70px;
+  }
   
 }
 
