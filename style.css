@@ -152,7 +152,6 @@ button {
   list-style-type: initial;
   margin-right: 19px;
   
-  /* margin-right: 5 */
 }
 
 .row-2-list-1 {
@@ -305,7 +304,6 @@ footer p{
 .number a {
   color: white;
   text-decoration: none
-  /* border: 2px solid red */
 }
 
 .contact-info a {
@@ -345,24 +343,11 @@ footer p{
     width: auto
   }
 
-  /* nav li, nav img {
-    margin-top: 15px;
-    font-size: 0.9em;
-    padding-right: 10px;
-  } */
-
-  /* nav {
-    height: 60px;
-  } */
 
   .row-1-intro, .row-2-intro, .row-3-intro {
     display: block;
     margin-bottom: 20px;
   }
-
-  /* .banner {
-    margin-top: auto
-  } */
 
   .webhosting {
     display: block;
@@ -433,15 +418,6 @@ footer p{
   h5 {
     font-size: 27px
   }
-
-  /* nav .navbar {
-    box-shadow: 1px 1px 2px #C9C9C9
-  
-  }
-
-  .banner {
-    margin-top: -6px
-  } */
 
   .domain img{
     height: 180px;
