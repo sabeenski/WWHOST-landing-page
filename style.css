@@ -345,25 +345,24 @@ footer p{
     width: auto
   }
 
-  nav li, nav img {
+  /* nav li, nav img {
     margin-top: 15px;
     font-size: 0.9em;
     padding-right: 10px;
-    font-size: 0.9em
-  }
+  } */
 
-  nav {
+  /* nav {
     height: 60px;
-  }
+  } */
 
   .row-1-intro, .row-2-intro, .row-3-intro {
     display: block;
     margin-bottom: 20px;
   }
 
-  .banner {
+  /* .banner {
     margin-top: auto
-  }
+  } */
 
   .webhosting {
     display: block;
@@ -475,7 +474,6 @@ footer p{
   .contact-info a {
     color: blue;
   }
-
   
 }
 
@@ -508,7 +506,13 @@ footer p{
   }
 }
 
-
+@media screen and (max-width: 540px) {
+  nav li, nav img {
+    margin-top: 15px;
+    font-size: 0.9em;
+    padding-right: 10px;
+  }
+}
 
 /* TEST */
 @media screen and (min-width: 555px) and (max-width: 673px){
