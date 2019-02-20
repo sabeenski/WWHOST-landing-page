@@ -25,8 +25,9 @@ body, html {
 }
 
 nav {
-  /* height: 90px; */
-  box-shadow: 1px 1px 5px lightgray
+  height: 90px;
+  box-shadow: 1px 0px 8px lightgray;
+
 }
 
 nav li {
@@ -48,11 +49,11 @@ nav li:hover {
 
 nav img {
   margin-left: 30px;
-  margin-top: 15px
+  margin-top: 15px;
 }
 
 .banner {
-  margin-top: -5px
+  margin-top: 3px 
 }
 
 .intro-web-host{
@@ -434,14 +435,14 @@ footer p{
     font-size: 27px
   }
 
-  nav .navbar {
+  /* nav .navbar {
     box-shadow: 1px 1px 2px #C9C9C9
   
   }
 
   .banner {
     margin-top: -6px
-  }
+  } */
 
   .domain img{
     height: 180px;
