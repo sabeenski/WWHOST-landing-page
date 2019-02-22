@@ -256,6 +256,7 @@ h2 {
 }
 
 .contact-form-2 input{
+  margin-right: 0px !important;
   height: 30px;
   width: 180%; 
   margin-top:15px;
@@ -265,14 +266,16 @@ h2 {
 
 textarea {
   width: 180%; 
+  margin-right: 0px !important;
   margin-top:15px;
   margin-bottom: 10px;
   font-size: 14px;
   border: 1px solid #DADCE0
 }
 
+
 .send-btn {
-  margin-left: 41.5em;
+  margin-left: 41.4em;
   margin-bottom: 80px;
   cursor: pointer;
 }
@@ -472,14 +475,7 @@ footer p{
 }
 
 @media screen and (max-width: 500px) {
-  .contact-form-2 input, textarea {
-    width: 90%;
-    margin-right: 30px
-  }
-  .send-btn {
-    margin-left: 330px;
-    position: relative
-  } 
+  
 
   .contact-form-1 {
     font-size: 14px;
@@ -493,6 +489,14 @@ footer p{
     font-size: 0.9em;
     padding-right: 10px;
   }
+  .contact-form-2 input, textarea {
+    width: 90%;
+    margin-right: 30px
+  }
+  .send-btn {
+    margin-left: 330px;
+    position: relative
+  } 
 }
 
 /* TEST */
